@@ -1,0 +1,384 @@
+body
+    {
+    background-color:#f2f8f8;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.avatar {
+    width: 200px;
+    border-radius: 100% ;
+    box-shadow:rgb(0 0 0 / 25%) 9px 10px 14px 3px;
+    height: 200px;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  
+}
+
+.info {
+  display: flex;
+  margin: 0%;
+  margin-bottom: 60px;
+  
+}
+
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block}
+        iframe {
+          text-align: center;
+        display: block}
+}
+
+
+
+.container{
+
+  max-width: 1030px;
+  position: relative;
+  padding-top: 20px;
+  box-sizing: border-box;
+  margin: auto;
+ 
+}
+
+@media(max-width: 1030px){
+.container{max-width: 800px;}
+
+}
+@media(max-width: 800px){
+  .container{max-width: 600px;}
+  
+  }
+
+
+.links{
+  font-size: 25px;
+  color: black;
+  text-decoration: unset;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+hr{
+    
+    margin-right: 540px;
+    width: 80px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    border-color: gray;
+    opacity: 0.6;
+
+}
+
+
+
+
+ .bg-green {background-color:  rgb(223, 235, 228);
+}
+ .bg-teal{background-color: rgb(234, 241, 241);
+}
+
+.cart {
+    padding: 15px 20px;
+    margin: 10px;
+    margin-left: -1px;
+    border-radius: 20px;
+
+}
+
+.hobbi{
+ padding: 2px;
+}
+.hobbi li {
+  color: rgb(39, 29, 29);
+  margin-bottom: 5px;
+}
+
+.table{
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    font-size:  16px  ;
+}
+
+
+#trener{
+
+  font-size: 20px;
+}
+.bg-steel h2{
+  text-align: center;
+
+}
+.contact label{
+    display: block;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.contact input,textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row{
+  display: flex;
+  margin-bottom: 20px;
+}
+.row >.contact{
+    width: 50%;
+    margin-right: 20px;
+}
+.row >.contact:last-child {
+   margin-right: 0px;
+}
+ .info-text {
+     margin-left: 40px;
+ }
+ .info-text h2{
+   margin-bottom: 10px;
+ }
+ .btn {
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    background-color: rgb(245, 228, 197);
+    border:none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+
+ }
+ .btn:hover {
+   opacity: 0.5;
+ }
+
+ .btn2 {
+  padding: 1.3em 3em;
+ 
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #000;
+  background-color: rgb(209, 236, 236);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn2:active {
+  transform: translateY(-1px);
+}
+
+.btn2:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.icon:hover{
+
+  animation: gradient 3s infinite;
+  transform: scale(1.4);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+
+
+
+iframe{
+  width: 100%;
+  height: 200pc;
+  margin: auto;
+  padding: auto;
+
+}
+
+
+.photo2 {
+  
+  padding: 5px 5px;
+  margin: 10px;
+  margin-left: -1px;
+  border-radius: 20px;
+  /* display: flex;
+  position: relative; */
+
+
+}
+
+.photo4{
+
+ margin-left: 40px;
+
+ }
+ .photo3{
+   position:  absolute;
+   margin-left: 70%;
+
+}
+
+
+.box1{
+  position:relative ; 
+display: flex;
+  right: 0px;
+margin: 5px;
+  flex-wrap: wrap ;
+  font-size: 60px;
+  
+
+}
+.box1 > div:hover {
+  opacity: 0.7;
+
+}
+.box1 > div{
+  
+  margin: auto
+  
+}
+
+
+/* .whatsapp{
+  position: relative;
+  margin-left: 10px;
+
+
+
+ }
+
+.telegram{
+  position: relative;
+  right: 0px;
+  right:  0px;
+  margin-left: 10px;
+
+
+ }
+
+
+.YouTube{
+  position: relative;
+  margin-left: 10px;
+
+}
+
+.instagram{
+  position: relative;
+  margin-left: 10px;
+
+} */
+
+
+
+/* SLIDER */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.container1 {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 600px;
+  margin-bottom: 30px;
+}
+
+
+.main-slide {
+  height: 100%;
+  position: relative;
+  top: 0;
+  border-radius: 20px;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+@media(max-width: 1030px){
+  .main-slide{max-width: 800px;}
+  
+  }
+  @media(max-width: 800px){
+    .main-slide{max-width: 600px;}
+    
+    }
+
+    @media(max-width:not()){
+      .main-slide{max-width: 400px;}
+      
+      }
+
+.main-slide > div {
+  border-radius: 20px;
+  height: 100%;
+  max-width: 1030px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 15px;
+}
+
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+
+.container1 .controls .down-button {
+  transform:  translateX(-100%);
+  opacity: 0.5;
+  border-radius: 100%;
+  position: absolute;
+  left: 530px;
+  top: 534px;
+  z-index: 100;
+}
+
+.container1 .controls .up-button {
+  transform: translateY(-100%);
+border-radius: 100%;
+opacity: 0.5;
+  position: absolute;
+  left: 470px;
+  top: 67px;
+  z-index: 100;
+}
+
